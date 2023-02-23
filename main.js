@@ -17,5 +17,6 @@ document.getElementById('count').onchange = function () {
     console.log(document.getElementById('count').innerHTML);
 }
 
-Android.showToast("안녕하세요.");
-
+function showAndroidToast(toast) {
+    Android.showToast(toast);
+}
