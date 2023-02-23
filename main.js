@@ -29,3 +29,10 @@ function showAndroidToast(toast) {
 window.addEventListener("volumechange", function () {
     console.log("볼륨이 변경되었습니다.");
 });
+
+function receiveLog(log) {
+    var logList = document.getElementById("logList");
+    var logItem = document.createElement("li");
+    logItem.innerText = log;
+    logList.appendChild(logItem);
+}
