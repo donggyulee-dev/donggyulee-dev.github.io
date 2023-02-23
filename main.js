@@ -23,12 +23,13 @@ document.getElementById('reset').onclick = function () {
 }
 
 function showAndroidToast(toast) {
-    Android.showToast(toast);
+    Android.showToast(toast)
+    console.log("toast is working");
 }
 
-// 웹뷰에서 콘솔로그를 볼 수 있는 함수
-function consoleLog(msg) {
-    console.log(msg);
+// 웹뷰에서 받은 데이터를 콘솔로그를 볼 수 있는 함수
+function showAndroidLog(log) {
+    console.log(log);
 }
 
 // window.addEventListener("volumechange", function () {
