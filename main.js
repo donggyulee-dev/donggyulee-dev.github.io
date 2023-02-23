@@ -20,3 +20,7 @@ document.getElementById('count').onchange = function () {
 function showAndroidToast(toast) {
     Android.showToast(toast);
 }
+
+function showAnroidLog(log) {
+    Android.showLog(log);
+}
