@@ -26,11 +26,10 @@ function showAndroidToast(toast) {
     Android.showToast(toast)
     console.log("toast is working");
 }
-
-// 웹뷰에서 받은 데이터를 콘솔로그를 볼 수 있는 함수
-function showAndroidLog(log) {
-    console.log(log);
+function logAndroidMessage(message) {
+    console.log(message);
 }
+
 
 // window.addEventListener("volumechange", function () {
 //     console.log("볼륨이 변경되었습니다.");
