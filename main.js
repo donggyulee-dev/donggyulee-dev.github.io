@@ -17,6 +17,11 @@ document.getElementById('count').onchange = function () {
     console.log(document.getElementById('count').innerHTML);
 }
 
+document.getElementById('reset').onclick = function () {
+    document.getElementById('count').innerHTML = 0;
+    console.log(document.getElementById('count').innerHTML);
+}
+
 function showAndroidToast(toast) {
     Android.showToast(toast);
 }
