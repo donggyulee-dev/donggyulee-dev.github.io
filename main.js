@@ -26,13 +26,12 @@ function showAndroidToast(toast) {
     Android.showToast(toast);
 }
 
-window.addEventListener("volumechange", function () {
-    console.log("볼륨이 변경되었습니다.");
-});
-
-function receiveLog(log) {
-    var logList = document.getElementById("logList");
-    var logItem = document.createElement("li");
-    logItem.innerText = log;
-    logList.appendChild(logItem);
+// 웹뷰에서 콘솔로그를 볼 수 있는 함수
+function consoleLog(msg) {
+    console.log(msg);
 }
+
+// window.addEventListener("volumechange", function () {
+//     console.log("볼륨이 변경되었습니다.");
+// });
+
