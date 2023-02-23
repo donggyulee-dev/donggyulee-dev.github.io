@@ -24,3 +24,7 @@ function showAndroidToast(toast) {
 function showAnroidLog(log) {
     Android.showLog(log);
 }
+
+window.addEventListener("volumechange", function () {
+    console.log("볼륨이 변경되었습니다.");
+});
