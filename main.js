@@ -26,12 +26,13 @@ function showAndroidToast(toast) {
     Android.showToast(toast)
     console.log("toast is working");
 }
+
 function logAndroidMessage(message) {
     console.log(message);
 }
 
-logAndroidMessage("hello");
-logAndroidMessage();
+// logAndroidMessage();
+
 
 // window.addEventListener("volumechange", function () {
 //     console.log("볼륨이 변경되었습니다.");
